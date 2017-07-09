@@ -5,5 +5,7 @@
     <feature name="http://tizen.org/feature/screen.size.all"/>
     <icon src="icon.png"/>
     <name>DailySayingWearable</name>
+    <name xml:lang="ko-kr">korean</name>
+    <name xml:lang="en-gb">english</name>
     <tizen:profile name="wearable"/>
 </widget>

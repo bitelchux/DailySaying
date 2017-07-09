@@ -5,5 +5,7 @@
     <feature name="http://tizen.org/feature/screen.size.all"/>
     <icon src="icon.png"/>
     <name>DailySayingMobile</name>
+    <name xml:lang="en-gb">eng</name>
+    <name xml:lang="ko-kr">kor</name>
     <tizen:profile name="mobile"/>
 </widget>
