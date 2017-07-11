@@ -7,18 +7,18 @@ var path = require('path');
 //parse-dashboard
 var ParseDashboard = require('parse-dashboard');
 
-var databaseUri = process.env.DATABASE_URI || process.env.MONGODB_URI;
+var databaseUri = 'mongodb://user1:asdf@ds119020.mlab.com:19020/daily_saying';
 
 if (!databaseUri) {
   console.log('DATABASE_URI not specified, falling back to localhost.');
 }
 
 var api = new ParseServer({
-  databaseURI: databaseUri || 'mongodb://localhost:27017/dev',
+  databaseURI: databaseUri ||'mongodb://user1:asdf@ds119020.mlab.com:19020/daily_saying',
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
-  appId: process.env.APP_ID || 'myAppId',
-  masterKey: process.env.MASTER_KEY || '', //Add your master key here. Keep it secret!
-  serverURL: process.env.SERVER_URL || 'http://localhost:1337/parse',  // Don't forget to change to https if needed
+  appId: process.env.APP_ID || 'a814j91hsofa83hi01',
+  masterKey: process.env.MASTER_KEY || '18hosf0u3joadosdfio20ajohf02h34', //Add your master key here. Keep it secret!
+  serverURL: process.env.SERVER_URL || 'http://dailysaying.herokuapp.com/parse',  // Don't forget to change to https if needed
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   }
@@ -32,16 +32,16 @@ var dashboard = new ParseDashboard({
   allowInsecureHTTP: true,
   apps: [
     {
-      appId: process.env.APP_ID || 'myAppId',
-      masterKey: process.env.MASTER_KEY || 'myMasterKey',
-      serverURL: process.env.SERVER_URL || 'http://localhost:1337/parse',
-      appName: process.env.APP_NAME || 'MyApp',
+      appId: process.env.APP_ID || 'a814j91hsofa83hi01',
+      masterKey: process.env.MASTER_KEY || '18hosf0u3joadosdfio20ajohf02h34',
+      serverURL: process.env.SERVER_URL || 'http://dailysaying.herokuapp.com/parse',
+      appName: process.env.APP_NAME || 'dailysaying',
     }
   ],
   users: [
     {
-      user: process.env.ADM_USER || '',
-      pass: process.env.ADM_PASS || ''
+      user: process.env.ADM_USER || 'blueberry',
+      pass: process.env.ADM_PASS || 'blueberry'
     }
   ]
 }, true);
@@ -65,6 +65,8 @@ app.get('/', function(req, res) {
 app.get('/test', function(req, res) {
   res.sendFile(path.join(__dirname, '/public/test.html'));
 });
+
+app.use('/parse', api);
 
 //parse-dashboard
 app.use('/dashboard', dashboard);

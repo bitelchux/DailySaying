@@ -4,7 +4,7 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>XBGNZ0irUeKpcF+sRmht26ILgcq1Uy7hhXWFfyJvlD4=</DigestValue>
+<DigestValue>yao8BzQDBA/rMuvAxJoeq57+/mA5uSbTaag1Hxk/MGY=</DigestValue>
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -20,11 +20,15 @@
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>vK73PtP7FGlsIb2sihFvwAJX+Ks+GVb8TmdIxtcPGAA=</DigestValue>
+<DigestValue>c+JI/7CL6XcmnFyeZbWAl2OTjHzDKic8R2M2IcbO470=</DigestValue>
+</Reference>
+<Reference URI="js%2Fbundle.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>owbfjzhsTAag1vimfh1JRLONSmlJ/y9B8bt7QtuE9KQ=</DigestValue>
 </Reference>
 <Reference URI="js%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>i5VC7UOUjOy5VwLL/Sf7S3u9LFMB3zJpu5qUZwXBThE=</DigestValue>
+<DigestValue>v+goMOUGB5cavWCtjpXEnwUQteG/fk4TrANdD35tS/c=</DigestValue>
 </Reference>
 <Reference URI="js%2Fnode_modules%2Fbabel-runtime%2F.npmignore">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -6378,6 +6382,30 @@
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>wABBRWx4t+vaQ6/LecMq7F/3u+n+IhnWRWJ6ok5zqQY=</DigestValue>
 </Reference>
+<Reference URI="js%2Fnode_modules%2Fparse-sdk%2F.npmignore">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>s6A8ofV9wj8UkQNh4lYI7SPJaOPrd7VlbhfqdpDErfs=</DigestValue>
+</Reference>
+<Reference URI="js%2Fnode_modules%2Fparse-sdk%2FLICENSE">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>M3b52PK5tXF8idGE9PthaMV3wrRzHsYx5+XLFvUZRCY=</DigestValue>
+</Reference>
+<Reference URI="js%2Fnode_modules%2Fparse-sdk%2FREADME.md">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>VdFZPbUu4J+JzMAv3lNpCikpN3P0M/3HGLF54Bs1Sec=</DigestValue>
+</Reference>
+<Reference URI="js%2Fnode_modules%2Fparse-sdk%2Ficon.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>eSGPsvU1qO28TuRgIVmhPQjXofc1haS9zbZXZ0kKBm8=</DigestValue>
+</Reference>
+<Reference URI="js%2Fnode_modules%2Fparse-sdk%2Findex.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>fu++fBbu4Jp4Yx0Jy9IG+YMQ+xNP+ny0lEXCJ6uPIw8=</DigestValue>
+</Reference>
+<Reference URI="js%2Fnode_modules%2Fparse-sdk%2Fpackage.json">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>QspahqtTGBwSluvHzZFEGwHYULgW3MPfO+74V5LvF/A=</DigestValue>
+</Reference>
 <Reference URI="js%2Fnode_modules%2Fparse%2FLICENSE">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>OOFVoFTr8gQ5NiZKtSy9uJBj9QtftCIr0pSXRHBFT/Y=</DigestValue>
@@ -7111,9 +7139,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-D+e89l7HG3dkffSs1CqmJWTmVki3x8Z3mzIu468dPQ7ujeHSZBy90f0cs5rixRc/FqPAoC4oDMA/
-0nAEm1o9Uh84T895NWloph4R4RFlHYDIoRlkfFKeN6j5aPimG3JeeADVlFNw+cSTebGbbufs59hj
-rlxr2Bdi5iYazRsBm68=
+Z/o187iiBFUppjF+oxrHh9eav2yB1ngn25tOG8NqJxcOzvw41Jfw5ZVrFT0NVjiH1wnU5NuWbi6L
+Kv2XkrMEQGZE2/FgQZVPbSaBi3zdtrb64CLpZnx5yIPu1mvffJHA0qZgNLtHoC2D9b5PRwmO7Aam
+WPflmFcuEWm9wpCbWko=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

@@ -3,10 +3,11 @@ vm: true
 
 env_variables:
   # --REQUIRED--
-  DATABASE_URI: mongodb://localhost:27017/dev
-  APP_ID: <your-app-id>
-  MASTER_KEY: <your-master-key>
+  DATABASE_URI: mongodb://user1:asdf@ds119020.mlab.com:19020/daily_saying
+  APP_ID: a814j91hsofa83hi01
+  MASTER_KEY: 18hosf0u3joadosdfio20ajohf02h34
+  PARSE_MOUNT: /parse
   # --OPTIONAL--
   # FILE_KEY: <your-file-key>
   # PARSE_MOUNT: /parse
-  # CLOUD_CODE_MAIN:  
+  # CLOUD_CODE_MAIN:
