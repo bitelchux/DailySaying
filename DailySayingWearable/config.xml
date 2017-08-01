@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/DailySayingWearable" version="1.0.0" viewmodes="maximized">
-    <tizen:application id="uvAOvqrRBm.DailySayingWearable" package="uvAOvqrRBm" required_version="3.0"/>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/practice" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="R2AdxZDghk.practice" package="R2AdxZDghk" required_version="2.3.2"/>
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.size.all"/>
     <icon src="icon.png"/>
-    <name>DailySayingWearable</name>
-    <name xml:lang="ko-kr">korean</name>
-    <name xml:lang="en-gb">english</name>
+    <name>Daliy Saying</name>
+    <tizen:privilege name="http://tizen.org/privilege/alarm"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.info"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
     <tizen:profile name="wearable"/>
 </widget>
